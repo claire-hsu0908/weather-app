@@ -1,9 +1,7 @@
 import {useState,useEffect} from 'react'
 import axios from 'axios'
 import './index.css'
-// $env:REACT_APP_API_KEY="132d94b991cec162e61572d37bd1dcd4"
-// const api_key = process.env.REACT_APP_API_KEY
-const api_key = '132d94b991cec162e61572d37bd1dcd4'
+const api_key = '<password>'
 
 const App =()=>{
   const [values,setValue] = useState('')
