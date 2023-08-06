@@ -46,7 +46,6 @@ const App =()=>{
     const [temp,setTemp] = useState('')
     const[wind,setWind] = useState('')
     const [icon,setIcon] = useState('')
-    const [loading,setLoading] = useState(true)
 
     useEffect(()=>{
       axios
